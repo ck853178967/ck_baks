@@ -1,0 +1,22 @@
+# home/ ~/
+# disk_home='/DATA/DATANAS1/kuncheng'
+
+# ffmpeg
+# export PATH=$PATH:$disk_home/Download/ffmpeg/ffmpeg-git-20191006-amd64-static
+
+# terminal color
+PS1='\[\033[33;1m\][\[\e[35m\]\T \[\033[33;1m\]\u\[\033[34m\]@\h:\[\e[0m\]\[\033[32;1m\]\W\[\033[33m\]]\$ \[\033[0m\]'
+
+# anaconda
+# export PATH="$disk_home/anaconda3/bin:$PATH"
+
+# cuda
+# PATH="$disk_home/softwares/cuda-9.0/bin:$PATH"
+# LD_LIBRARY_PATH="$disk_home/softwares/cuda-9.0/lib64:$LD_LIBRARY_PATH"
+
+alias tmux='TERM=xterm-256color tmux'
+
+# gcc
+# export PATH=/DATA/DATANAS1/kuncheng/software/gcc-4.8:$PATH
+# alias gcc='gcc-4.9'
+
